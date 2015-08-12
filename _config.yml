@@ -1,0 +1,12 @@
+# Site settings
+title: MeanHub Blog
+email: info@meanhub.com
+description: > # this means to ignore newlines until "baseurl:"
+  MeanHub is a information hub for MEAN stack technologies MongoDB ExpressJS AngularJS NodeJS
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://blog.meanhub.com" # the base hostname & protocol for your site
+twitter_username: meanhubinc
+github_username:  meanhub
+
+# Build settings
+markdown: kramdown
