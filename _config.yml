@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Permalinks
 #
 # Use of `relative_permalinks` ensures post links from the index work properly.
@@ -18,6 +17,3 @@ author:
   name:              MeanHub
   url:               https://twitter.com/meanhubinc
   email:             info@meanhub.com
-
-# Custom vars
-version:             1.0.0
