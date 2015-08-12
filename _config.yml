@@ -1,12 +1,19 @@
-# Site settings
-title: MeanHub Blog
-email: info@meanhub.com
-description: > # this means to ignore newlines until "baseurl:"
-  MeanHub is a information hub for MEAN stack technologies MongoDB ExpressJS AngularJS NodeJS
-baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://blog.meanhub.com" # the base hostname & protocol for your site
-twitter_username: meanhubinc
-github_username:  meanhub
+# Permalinks
+#
+# Use of `relative_permalinks` ensures post links from the index work properly.
+permalink:           pretty
+relative_permalinks: true
 
-# Build settings
-markdown: kramdown
+# Setup
+title:               MeanHub Blog
+tagline:             'MEAN stack technologies information hub'
+description:         'MeanHub is a information hub for MEAN stack technologies MongoDB ExpressJS AngularJS NodeJS'
+url:                 http://blog.meanhub.com
+baseurl:             ''
+paginate:            5
+
+# About/contact
+author:
+  name:              MeanHub
+  url:               https://twitter.com/meanhubinc
+  email:             info@meanhub.com
