@@ -8,6 +8,15 @@ layout: default
   {{ content }}
 </div>
 
+{% assign author = site.data.authors[page.author] %}
+
+<div>
+    About the author
+    <img src="/public/images/{{ author.image }}" id="img" />
+    <em>{{ author.name }}</em>
+    <p>{{ author.bio }}</p>
+</div>
+
 <div class="related">
   <h2>Related Posts</h2>
   <ul class="related-posts">

@@ -12,6 +12,7 @@ url:                 http://blog.meanhub.com
 baseurl:             ''
 home:                http://www.meanhub.com
 paginate:            5
+highlighter:         pygments
 
 # About/contact
 author:
