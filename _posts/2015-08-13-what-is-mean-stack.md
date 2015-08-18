@@ -2,6 +2,7 @@
 layout: post
 title: What is a MEAN Stack?
 published: true
+author: souvik
 ---
 
 MEAN stack is a popular acronym for an amalgamation of several key JavaScript technologies for building modern single page web applications. It is similar to another popular stack for building web applications [LAMP](https://en.wikipedia.org/wiki/LAMP_(software_bundle)) or it's Windows based cousin [WAMP](https://en.wikipedia.org/wiki/LAMP_(software_bundle)#WAMP).
@@ -16,7 +17,7 @@ MEAN stack technologies and their key features are as below
 
 **_N_** stands for *[NodeJS](https://nodejs.org/)*, a _platform_ for executing your backend code on your servers. It is built on Google Chrome browser's JavaScript engine and allows building fast and scalable network applications. It employs an event driven, non-blocking I/O model that makes it lightweight and efficient.
 
-If you want to visualize MEAN stack it would look something like this
+If you want to visualize MEAN stack, it would look something like this
 
 <img src="/public/images/mean.png">
 
@@ -46,7 +47,7 @@ router.get('/contacts', function (req, res, next) {
 
 On client-side you would have a view template to display data and have an Angular Controller to bind data in this view. For example for showing list of Contacts you would have a template as shown below
 
-{% highlight html+handlebars %}
+{% highlight html %}
 <ul ng-controller="ContactsController as contactsCtrl">
   <li ng-repeat="contact in contactsCtrl.contacts">
     First Name: {{ contact.first_name }}
