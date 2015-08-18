@@ -2,7 +2,7 @@
 layout: post
 title: What is a MEAN Stack?
 published: true
-author: souvik
+author: ashish
 ---
 
 MEAN stack is a popular acronym for an amalgamation of several key JavaScript technologies for building modern single page web applications. It is similar to another popular stack for building web applications [LAMP](https://en.wikipedia.org/wiki/LAMP_(software_bundle)) or it's Windows based cousin [WAMP](https://en.wikipedia.org/wiki/LAMP_(software_bundle)#WAMP).
