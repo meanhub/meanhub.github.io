@@ -2,7 +2,6 @@
 #
 # Use of `relative_permalinks` ensures post links from the index work properly.
 permalink:           pretty
-relative_permalinks: true
 
 # Setup
 title:               MeanHub Blog
@@ -12,7 +11,7 @@ url:                 http://blog.meanhub.com
 baseurl:             ''
 home:                http://www.meanhub.com
 paginate:            5
-highlighter:         pygments
+highlighter:         rogue
 
 # About/contact
 author:
